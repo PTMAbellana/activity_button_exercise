@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="371dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/button_background_color"
+        android:text="Close"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnToast"
+        app:layout_constraintStart_toStartOf="@+id/btnToast"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <Button
+        android:id="@+id/btnIG"
+        android:layout_width="371dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/button_background_color"
+        android:text="Instagram"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnToast"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnToast"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.194" />
+
+    <Button
+        android:id="@+id/btnToast"
+        android:layout_width="371dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/button_background_color"
+        android:text="Toast"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnChangeBG"
+        app:layout_constraintStart_toStartOf="@+id/btnChangeBG"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405" />
+
+    <Button
+        android:id="@+id/btnChangeBG"
+        android:layout_width="371dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/button_background_color"
+        android:text="Change BG"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnChangeButtonBG"
+        app:layout_constraintStart_toStartOf="@+id/btnChangeButtonBG"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515" />
+
+    <Button
+        android:id="@+id/btnChangeButtonBG"
+        android:layout_width="371dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/button_background_color"
+        android:text="Change Button BG"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnDisappear"
+        app:layout_constraintStart_toStartOf="@+id/btnDisappear"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623" />
+
+    <Button
+        android:id="@+id/btnDisappear"
+        android:layout_width="371dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/button_background_color"
+        android:text="Disappear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.721" />
+</androidx.constraintlayout.widget.ConstraintLayout>
